@@ -3,6 +3,8 @@ import dflLogo from "./assets/dlfLogo.png";
 import vrLogo from "./assets/vayuGuardLogo.jpeg";
 import "./App.css";
 import { Grid, Box, Stack, Typography } from "@mui/material";
+import ArrowRightIcon from "@mui/icons-material/ArrowRight";
+import ArrowLeftIcon from "@mui/icons-material/ArrowLeft";
 import {
   rangeMapping,
   parameterType,
@@ -141,7 +143,12 @@ function App() {
       <Grid item xs={1} sx={{ height: "100%" }}>
         <Box sx={{ display: "flex", height: "100%" }}>
           <Box
-            sx={{ display: "flex", flexDirection: "column", height: "100%" }}
+            sx={{
+              display: "flex",
+              flexDirection: "column",
+              height: "100%",
+              position: "relative",
+            }}
           >
             <Box sx={{ display: "flex", height: "7%" }}>
               <Typography
@@ -156,6 +163,12 @@ function App() {
               >
                 AQI
               </Typography>
+            </Box>
+            <Box sx={{ position: "absolute", top: "10%", right: "90%" }}>
+              <ArrowLeftIcon sx={{ fontSize: "6rem" }} />
+            </Box>
+            <Box sx={{ position: "absolute", top: "20%", left: "90%" }}>
+              <ArrowRightIcon sx={{ fontSize: "6rem" }} />
             </Box>
             {AQI_MAPPING.map((item) => (
               <Box
