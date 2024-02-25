@@ -3,7 +3,12 @@ import dflLogo from "./assets/dlfLogo.png";
 import vrLogo from "./assets/vayuGuardLogo.jpeg";
 import "./App.css";
 import { Grid, Box, Stack, Typography } from "@mui/material";
-import { rangeMapping, parameterType, DIFFERENT_PARAMETERS } from "./utils";
+import {
+  rangeMapping,
+  parameterType,
+  DIFFERENT_PARAMETERS,
+  AQI_MAPPING,
+} from "./utils";
 
 function App() {
   const [values, setValues] = useState(0);
@@ -27,15 +32,8 @@ function App() {
 
           const color = matchedParameter?.color
             ? matchedParameter?.color
-            : "#00e300";
-          console.log(
-            "rangeMapping[parameter]",
-            rangeMapping[parameter],
-            "parameter",
-            parameter,
-            "color",
-            matchedParameter
-          );
+            : "#90be6d";
+
           return { color, value };
 
         default:
@@ -77,6 +75,8 @@ function App() {
               borderRadius: "50%",
               border: `15px solid ${color}`,
               display: "flex",
+              boxShadow:
+                " 2px 2px 2px rgba(0, 0, 0, 0.1),4px 4px 4px rgba(0, 0, 0, 0.2), 6px 6px 6px #cbd0d5;",
             }}
           >
             <Box
@@ -138,22 +138,48 @@ function App() {
           ))}
         </Grid>
       </Grid>
-      <Grid item xs={1} sx={{ border: "1px solid black" }}>
-        <Box sx={{ display: "flex" }}>
-          <Box sx={{ display: "flex", flexDirection: "column" }}>
-            <Box sx={{ display: "flex" }}>
+      <Grid item xs={1} sx={{ height: "100%" }}>
+        <Box sx={{ display: "flex", height: "100%" }}>
+          <Box
+            sx={{ display: "flex", flexDirection: "column", height: "100%" }}
+          >
+            <Box sx={{ display: "flex", height: "7%" }}>
               <Typography
                 sx={{
                   ml: "40px",
                   textAlign: "center",
-                  fontSize: "1.5rem",
+                  fontSize: "1.7rem",
                   fontWeight: 600,
                   color: "#000",
+                  m: "auto",
                 }}
               >
                 AQI
               </Typography>
             </Box>
+            {AQI_MAPPING.map((item) => (
+              <Box
+                sx={{
+                  border: "1px solid white",
+                  height: "15%",
+                  textAlign: "center",
+                  display: "flex",
+                  borderRadius: "5px",
+                  backgroundColor: item.color,
+                }}
+              >
+                <Typography
+                  sx={{
+                    m: "auto",
+                    fontSize: "16px",
+                    color: "white",
+                    fontWeight: 600,
+                  }}
+                >
+                  {item.name}
+                </Typography>
+              </Box>
+            ))}
           </Box>
         </Box>
       </Grid>

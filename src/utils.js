@@ -3,7 +3,7 @@ export const rangeMapping = {
     {
       min: 70,
       max: 100,
-      color: "#f64655",
+      color: "#f94144",
     },
     {
       min: 60,
@@ -13,7 +13,7 @@ export const rangeMapping = {
     {
       min: 30,
       max: 60,
-      color: "#49c788",
+      color: "#90be6d",
     },
     {
       min: 25,
@@ -23,24 +23,24 @@ export const rangeMapping = {
     {
       min: 0,
       max: 30,
-      color: "#f64655",
+      color: "#f94144",
     },
   ],
   pm25: [
     {
       min: 0.0,
       max: 12.0,
-      color: "#00e300",
+      color: "#90be6d",
     },
     {
       min: 12.1,
       max: 35.4,
-      color: "#f5e631",
+      color: "#f8961e",
     },
     {
       min: 35.5,
       max: 55.4,
-      color: "#ff7e00",
+      color: "#f3722c",
     },
     {
       min: 55.5,
@@ -50,29 +50,29 @@ export const rangeMapping = {
     {
       min: 150.5,
       max: 250.4,
-      color: "#91539e",
+      color: "#560bad",
     },
     {
       min: 250.5,
       max: 400,
-      color: "#7a0323",
+      color: "#472d30",
     },
   ],
   temp: [
     {
       min: 0.0,
       max: 12.0,
-      color: "#00e300",
+      color: "#90be6d",
     },
     {
       min: 12.1,
       max: 35.4,
-      color: "#f5e631",
+      color: "#f8961e",
     },
     {
       min: 35.5,
       max: 55.4,
-      color: "#ff7e00",
+      color: "#f3722c",
     },
     {
       min: 55.5,
@@ -82,12 +82,12 @@ export const rangeMapping = {
     {
       min: 150.5,
       max: 250.4,
-      color: "#91539e",
+      color: "#560bad",
     },
     {
       min: 250.5,
       max: 400,
-      color: "#7a0323",
+      color: "#472d30",
     },
   ],
 
@@ -95,17 +95,17 @@ export const rangeMapping = {
     {
       min: 0,
       max: 54,
-      color: "#00e300",
+      color: "#90be6d",
     },
     {
       min: 55,
       max: 154,
-      color: "#f5e631",
+      color: "#f8961e",
     },
     {
       min: 155,
       max: 254,
-      color: "#ff7e00",
+      color: "#f3722c",
     },
     {
       min: 255,
@@ -115,29 +115,29 @@ export const rangeMapping = {
     {
       min: 355,
       max: 424,
-      color: "#91539e",
+      color: "#560bad",
     },
     {
       min: 425,
       max: 500,
-      color: "#7a0323",
+      color: "#472d30",
     },
   ],
   co2: [
     {
       min: 400,
       max: 699,
-      color: "#00e300",
+      color: "#90be6d",
     },
     {
       min: 700,
       max: 1099,
-      color: "#f5e631",
+      color: "#f8961e",
     },
     {
       min: 1100,
       max: 1599,
-      color: "#ff7e00",
+      color: "#f3722c",
     },
     {
       min: 1600,
@@ -147,24 +147,24 @@ export const rangeMapping = {
     {
       min: 2100,
       max: 2500,
-      color: "#7a0323",
+      color: "#472d30",
     },
   ],
   tvoc: [
     {
       min: 0.0,
       max: 0.4,
-      color: "#00e300",
+      color: "#90be6d",
     },
     // {
     //   min: 12.1,
     //   max: 35.4,
-    //   color: "#f5e631",
+    //   color: "#f8961e",
     // },
     // {
     //   min: 35.5,
     //   max: 55.4,
-    //   color: "#ff7e00",
+    //   color: "#f3722c",
     // },
     // {
     //   min: 55.5,
@@ -174,29 +174,29 @@ export const rangeMapping = {
     // {
     //   min: 150.5,
     //   max: 250.4,
-    //   color: "#91539e",
+    //   color: "#560bad",
     // },
     {
       min: 0.6,
       max: 1,
-      color: "#7a0323",
+      color: "#472d30",
     },
   ],
   hcho: [
     {
       min: 0.0,
       max: 0.1,
-      color: "#00e300",
+      color: "#90be6d",
     },
     // {
     //   min: 12.1,
     //   max: 35.4,
-    //   color: "#f5e631",
+    //   color: "#f8961e",
     // },
     // {
     //   min: 35.5,
     //   max: 55.4,
-    //   color: "#ff7e00",
+    //   color: "#f3722c",
     // },
     // {
     //   min: 55.5,
@@ -206,12 +206,12 @@ export const rangeMapping = {
     // {
     //   min: 150.5,
     //   max: 250.4,
-    //   color: "#91539e",
+    //   color: "#560bad",
     // },
     {
       min: 0.1,
       max: 1,
-      color: "#7a0323",
+      color: "#472d30",
     },
   ],
 };
@@ -269,3 +269,12 @@ export const DIFFERENT_PARAMETERS = {
     },
   ],
 };
+
+export const AQI_MAPPING = [
+  { name: "Good", height: "", color: "#90be6d" },
+  { name: "Moderate", height: "", color: "#f8961e" },
+  { name: "Unhealthy for sensitive group", height: "", color: "#f3722c" },
+  { name: "Unhealthy", height: "", color: "#ee0b00" },
+  { name: "Very Unhealthy", height: "", color: "#560bad" },
+  { name: "Hazardous", height: "", color: "#472d30" },
+];
