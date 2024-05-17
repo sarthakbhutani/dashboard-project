@@ -1,5 +1,5 @@
 export const rangeMapping = {
-  humidity: [
+  sensor_id: [
     {
       min: 70,
       max: 100,
@@ -26,7 +26,7 @@ export const rangeMapping = {
       color: "#f94144",
     },
   ],
-  pm25: [
+  pm2: [
     {
       min: 0.0,
       max: 12.0,
@@ -217,9 +217,9 @@ export const rangeMapping = {
 };
 
 export const parameterType = {
-  humidity: { type: "percentage", limit: 100 },
+  sensor_id: { type: "percentage", limit: 100 },
   temp: { type: "number", limit: 100 },
-  pm25: { type: "number", limit: 500 },
+  pm2: { type: "number", limit: 500 },
   pm10: { type: "number", limit: 500 },
   co2: { type: "number", limit: 2500 - 400 + 400 },
   tvoc: { type: "number", limit: 0.1 },
@@ -229,8 +229,8 @@ export const parameterType = {
 export const DIFFERENT_PARAMETERS = {
   col1: [
     {
-      name: "Humidity",
-      key: "humidity",
+      name: "Humanity",
+      key: "sensor_id",
       unit: "%",
     },
     {
@@ -242,7 +242,7 @@ export const DIFFERENT_PARAMETERS = {
   col2: [
     {
       name: "PM 2.5",
-      key: "pm25",
+      key: "pm2",
       unit: "µg/m3",
     },
     {
