@@ -229,18 +229,6 @@ export const parameterType = {
 export const DIFFERENT_PARAMETERS = {
   col1: [
     {
-      name: "Humanity",
-      key: "sensor_id",
-      unit: "%",
-    },
-    {
-      name: "Temp",
-      key: "temp",
-      unit: "°C",
-    },
-  ],
-  col2: [
-    {
       name: "PM 2.5",
       key: "pm2",
       unit: "µg/m3",
@@ -250,13 +238,8 @@ export const DIFFERENT_PARAMETERS = {
       key: "pm10",
       unit: "µg/m3",
     },
-    {
-      name: "Co2",
-      key: "co2",
-      unit: "ppm",
-    },
   ],
-  col3: [
+  col2: [
     {
       name: "TVOC",
       key: "tvoc",
@@ -266,6 +249,23 @@ export const DIFFERENT_PARAMETERS = {
       name: "HCHO",
       key: "hcho",
       unit: "mg/m3",
+    },
+    {
+      name: "Co2",
+      key: "co2",
+      unit: "ppm",
+    },
+  ],
+  col3: [
+    {
+      name: "Humanity",
+      key: "sensor_id",
+      unit: "%",
+    },
+    {
+      name: "Temp",
+      key: "temp",
+      unit: "°C",
     },
   ],
 };
