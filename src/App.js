@@ -87,7 +87,7 @@ function App() {
 
     try {
       const response = await fetch(
-        "https://aqm-service.vayuguard.com/sensor/get-indoor-data",
+        "/sensor/get-indoor-data",
         {
           headers: {
             "Content-Type": "text/plain",

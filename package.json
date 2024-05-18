@@ -1,5 +1,6 @@
 {
   "name": "dashboard-project",
+  "proxy":"https://aqm-service.vayuguard.com/",
   "homepage": "https://sarthakbhutani.github.io/dashboard-project/",
   "version": "0.1.0",
   "private": true,
