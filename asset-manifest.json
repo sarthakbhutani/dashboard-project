@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/dashboard-project/static/css/main.7285da4c.css",
-    "main.js": "/dashboard-project/static/js/main.08dbef6f.js",
-    "static/js/453.64be9eb2.chunk.js": "/dashboard-project/static/js/453.64be9eb2.chunk.js",
-    "static/media/vayuGuardLogo.jpeg": "/dashboard-project/static/media/vayuGuardLogo.c7beda46dfc96281280d.jpeg",
-    "index.html": "/dashboard-project/index.html",
-    "main.7285da4c.css.map": "/dashboard-project/static/css/main.7285da4c.css.map",
-    "main.08dbef6f.js.map": "/dashboard-project/static/js/main.08dbef6f.js.map",
-    "453.64be9eb2.chunk.js.map": "/dashboard-project/static/js/453.64be9eb2.chunk.js.map"
+    "main.css": "/static/css/main.7285da4c.css",
+    "main.js": "/static/js/main.091c9889.js",
+    "static/js/453.2ae194f4.chunk.js": "/static/js/453.2ae194f4.chunk.js",
+    "static/media/vayuGuardLogo.jpeg": "/static/media/vayuGuardLogo.c7beda46dfc96281280d.jpeg",
+    "index.html": "/index.html",
+    "main.7285da4c.css.map": "/static/css/main.7285da4c.css.map",
+    "main.091c9889.js.map": "/static/js/main.091c9889.js.map",
+    "453.2ae194f4.chunk.js.map": "/static/js/453.2ae194f4.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.7285da4c.css",
-    "static/js/main.08dbef6f.js"
+    "static/js/main.091c9889.js"
   ]
 }
