@@ -314,7 +314,7 @@ function App() {
         <Grid container>
           <Grid item xs={12} sx={{ p: 2, display: "flex" }}>
             <Box sx={{ ml: "auto" }}>
-              <img width={80} src={vrLogo} alt="logo"></img>
+              <img width={80} src="https://vayuguard.com/wp-content/uploads/2022/11/logo-1315x1139.jpg" alt="logo"></img>
             </Box>
           </Grid>
           <Grid item xs={12}>
