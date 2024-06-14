@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/static/css/main.7285da4c.css",
-    "main.js": "/static/js/main.c4485452.js",
+    "main.js": "/static/js/main.23f5517b.js",
     "static/js/453.2ae194f4.chunk.js": "/static/js/453.2ae194f4.chunk.js",
     "static/media/vayuGuardLogo.jpeg": "/static/media/vayuGuardLogo.c7beda46dfc96281280d.jpeg",
     "index.html": "/index.html",
     "main.7285da4c.css.map": "/static/css/main.7285da4c.css.map",
-    "main.c4485452.js.map": "/static/js/main.c4485452.js.map",
+    "main.23f5517b.js.map": "/static/js/main.23f5517b.js.map",
     "453.2ae194f4.chunk.js.map": "/static/js/453.2ae194f4.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.7285da4c.css",
-    "static/js/main.c4485452.js"
+    "static/js/main.23f5517b.js"
   ]
 }
